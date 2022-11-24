@@ -1,0 +1,162 @@
+@font-face{
+    font-family: 'Yekan';
+    src : url('fonts/Yekan.woff');
+}
+*{
+    font-family: 'Yekan';
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.911);
+    overflow-x: hidden;
+}
+header{
+    color: orangered;
+    position: relative;
+    top: 20px;
+    right: 100px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.header{
+    display: flex;
+    position: relative;
+    top: 80px;
+    right: 400px;
+}
+.heading{
+    display: flex;
+    position: relative;
+    top: 80px;
+    right: 500px;
+    font-size: 20px;
+}
+.input{
+    color: rgba(255, 255, 255, 0.74);
+    font-size: 15px;
+    
+}
+#put{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    position: relative;
+    right: 10px;
+    bottom: 7px;
+    background-color: rgba(255, 255, 255, 0.74);
+    border: none;
+    margin: 0;
+    padding-right: 10px;
+    font-size: 16px;
+}
+#put:focus{
+    border: 1.5px solid  rgba(0, 0, 0, 0.192);
+    outline: none;
+    box-shadow: 1px 1px 10px orangered;
+}
+button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 30px; 
+    bottom: 7px;
+}
+.tables{
+    position: relative;
+    right: 350px;
+    top: 100px;
+    text-align: center;
+    border-radius: 10px;
+    width: 85%;
+    height: 600px;
+    color: rgba(255, 255, 255, 0.815);
+    border: 1px solid rgba(161, 50, 7, 0.397);
+    padding: 0;
+    margin: 0;
+}
+
+.compare{
+    color: orangered;
+    position: relative;
+    top:200px;
+    right: 100px;
+    font-size: 25px;
+    font-weight: bold;
+}
+#head1{
+    border:1px solid rgba(255, 68, 0, 0.425);
+    position: relative;
+    width: 50%;
+    left: 500px;
+    bottom: 78px;
+    border-radius: 8px;
+}
+#head2{
+    border:1px solid rgba(255, 68, 0, 0.425);
+    position: relative;
+    width: 50%;
+    left: 500px;
+    bottom: 78px;
+    border-radius: 8px;
+}
+.flex{
+    display: flex;
+}
+#names{
+    height: 500px;
+    width: 50%;
+    color: white;
+}
+#scores{
+    color: white;
+    width: 50%;
+    height: 500px;
+
+}
+.comparison{
+    color: rgba(255, 255, 255, 0.699);
+    position: relative;
+    top: 200px;
+    right: 100px;
+    border:1px solid rgba(255, 68, 0, 0.425);
+    height: 150px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding-right: 20px;
+}
+.three{
+    border: 1px solid rgba(255, 68, 0, 0.425);
+    position: relative;
+    top: 300px;
+    right: 100px;
+    display: flex;
+    height: 200px;
+    border-radius: 10px;
+}
+.first{
+    position: relative;
+    width: 50%;
+}
+.last{
+    position: relative;
+    width: 50%;
+}
+.para{
+    color: orangered;
+    font-size: 20px;
+    text-align: center;
+}
+#max{
+    color: white;
+    height: 200px;
+    text-align: center;
+}
+#least{
+    color: white;
+    height: 200px;
+    text-align: center;
+}
